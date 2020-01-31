@@ -44,6 +44,9 @@ namespace ChiDaram.Api
             services.Configure<ConnectionStrings>(Configuration.GetSection(nameof(ConnectionStrings)));
             services.AddSingleton(provider => provider.GetService<IOptions<ConnectionStrings>>().Value);
 
+            services.Configure<SoftwareConfig>(Configuration.GetSection(nameof(SoftwareConfig)));
+            services.AddSingleton(provider => provider.GetService<IOptions<SoftwareConfig>>().Value);
+
             #endregion
 
             services.AddAutoMapper(typeof(Program));
@@ -124,7 +127,8 @@ namespace ChiDaram.Api
                 c.OperationFilter<SecurityOperationFilter>();
                 c.OperationFilter<RequiredHeaderParameterOperationFilter>();
                 c.IncludeXmlComments(ZlpPathHelper.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
-                c.IncludeXmlComments(ZlpPathHelper.Combine(AppContext.BaseDirectory, "Cms.Common.xml"));
+                c.IncludeXmlComments(ZlpPathHelper.Combine(AppContext.BaseDirectory, "ChiDaram.Common.xml"));
+                c.IncludeXmlComments(ZlpPathHelper.Combine(AppContext.BaseDirectory, "ChiDaram.Data.xml"));
             });
 
             #endregion

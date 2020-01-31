@@ -7,7 +7,7 @@ namespace ChiDaram.Data.DataService
     public class BaseDataService
     {
         protected readonly ConnectionStrings ConnectionStrings;
-        protected BaseDataService(ConnectionStrings connectionStrings)
+        public BaseDataService(ConnectionStrings connectionStrings)
         {
             ConnectionStrings = connectionStrings;
         }
