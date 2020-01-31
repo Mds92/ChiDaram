@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessLevel" xml:space="preserve">
+    <value>سطح دسترسی</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>فایل پیوست</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>نویسنده</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>رمز فعلی</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>تاریخ پایان</value>
+  </data>
+  <data name="ErrorMessageAccessIsDenied" xml:space="preserve">
+    <value>شما مجاز به انجام این عملیات نیستید</value>
+  </data>
+  <data name="ErrorMessageCanNotDelete" xml:space="preserve">
+    <value>آیتم انتخاب شده در سیستم استفاده شده است و قابل حذف نمی باشد</value>
+  </data>
+  <data name="ErrorMessageDuplicateExistStringFormat" xml:space="preserve">
+    <value>"{0}" وارد شده قبلا گرفته شده است</value>
+  </data>
+  <data name="ErrorMessageIsDeactive" xml:space="preserve">
+    <value>"{0}" غیر فعال است</value>
+  </data>
+  <data name="ErrorMessageNotCorrectStringFormat" xml:space="preserve">
+    <value>"{0}" را اشتباه وارد کرده اید</value>
+  </data>
+  <data name="ErrorMessageNotExistInDataBaseStringFormat" xml:space="preserve">
+    <value>اطلاعات "{0}" در دیتابیس موجود نیست</value>
+  </data>
+  <data name="ErrorMessageOtpPasswordEnableTimeExpired" xml:space="preserve">
+    <value>مدت زمان مجاز برای فعال سازی رمز یکبار مصرف تمام شده است، لطفا دوباره سعی کنید</value>
+  </data>
+  <data name="ErrorMessageOtpPasswordIsIncorrect" xml:space="preserve">
+    <value>رمز عبور یکبار مصرف را اشتباه وارد کرده اید</value>
+  </data>
+  <data name="ErrorMessagePasswordCompareValidation" xml:space="preserve">
+    <value>رمز عبور و تکرار آن باید با یکدیگر یکسان باشند</value>
+  </data>
+  <data name="ErrorMessageRangeValidationStringFormat" xml:space="preserve">
+    <value>"{0}" باید بین "{1}" و "{2}" باشد</value>
+  </data>
+  <data name="ErrorMessageRecaptchaIsWrong" xml:space="preserve">
+    <value>خطای امنیتی ReCaptcha رخ داده است</value>
+  </data>
+  <data name="ErrorMessageRequiredCorrectValueStringFormat" xml:space="preserve">
+    <value>"{0}" معتبر وارد نمایید</value>
+  </data>
+  <data name="ErrorMessageRequiredValidationStringFormat" xml:space="preserve">
+    <value>"{0}" را وارد نکرده اید</value>
+  </data>
+  <data name="ErrorMessageStringLengthValidationStringFormat" xml:space="preserve">
+    <value>"{0}" باید حداقل "{2}" و حداکثر "{1}" کاراکتر باشد</value>
+  </data>
+  <data name="ErrorMessageTagsNotCloseStringFormat" xml:space="preserve">
+    <value>تگ های {0} به درستی بسته نشده اند</value>
+  </data>
+  <data name="ErrorMessageUploadedFileExtensionNotSupport" xml:space="preserve">
+    <value>پسوند فایل "{0}" پشتیبانی نمی شود</value>
+  </data>
+  <data name="ErrorMessageUploadedFileLength" xml:space="preserve">
+    <value>حجم فایل آپلود شده باید کمتر از "{0}" باشد</value>
+  </data>
+  <data name="ErrorMessageUploadedFileMustHaveAnExtension" xml:space="preserve">
+    <value>فایل آپلود شده باید دارای پسوند باشد</value>
+  </data>
+  <data name="ErrorMessageUploadedFileNameIsNotValid" xml:space="preserve">
+    <value>نام فایل آپلود شده باید کمتر از "{0}" کاراکتر باشد</value>
+  </data>
+  <data name="ErrorMessageUploadedFileNotFound" xml:space="preserve">
+    <value>فایل آپلود شده یافت نشد، لطفا دوباره فایل را بارگذاری نمائید</value>
+  </data>
+  <data name="ErrorMessageUsernameOrPasswordIsIncorrect" xml:space="preserve">
+    <value>نام کاربری یا رمز عبور اشتباه است</value>
+  </data>
+  <data name="ErrorMessageYouCanNotDeleteOrDisableYourself" xml:space="preserve">
+    <value>شما نمی توانید {0} خودتان را حذف یا غیر فعال کنید</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>نام و نام خانوادگی</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>شناسه</value>
+  </data>
+  <data name="KiloByte" xml:space="preserve">
+    <value>کیلو بایت</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>اصلی</value>
+  </data>
+  <data name="MegaByte" xml:space="preserve">
+    <value>مگابایت</value>
+  </data>
+  <data name="MenuCode" xml:space="preserve">
+    <value>کد منو</value>
+  </data>
+  <data name="MenuCodes" xml:space="preserve">
+    <value>کد منوها</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>رمز جدید</value>
+  </data>
+  <data name="Number0" xml:space="preserve">
+    <value>۰</value>
+  </data>
+  <data name="Number0String" xml:space="preserve">
+    <value>صفر</value>
+  </data>
+  <data name="Number1" xml:space="preserve">
+    <value>۱</value>
+  </data>
+  <data name="Number10" xml:space="preserve">
+    <value>شماره</value>
+  </data>
+  <data name="Number1String" xml:space="preserve">
+    <value>یک</value>
+  </data>
+  <data name="Number2" xml:space="preserve">
+    <value>۲</value>
+  </data>
+  <data name="Number2String" xml:space="preserve">
+    <value>دو</value>
+  </data>
+  <data name="Number3" xml:space="preserve">
+    <value>۳</value>
+  </data>
+  <data name="Number3String" xml:space="preserve">
+    <value>سه</value>
+  </data>
+  <data name="Number4" xml:space="preserve">
+    <value>۴</value>
+  </data>
+  <data name="Number4String" xml:space="preserve">
+    <value>چهار</value>
+  </data>
+  <data name="Number5" xml:space="preserve">
+    <value>۵</value>
+  </data>
+  <data name="Number5String" xml:space="preserve">
+    <value>پنج</value>
+  </data>
+  <data name="Number6" xml:space="preserve">
+    <value>۶</value>
+  </data>
+  <data name="Number6String" xml:space="preserve">
+    <value>شش</value>
+  </data>
+  <data name="Number7" xml:space="preserve">
+    <value>۷</value>
+  </data>
+  <data name="Number7String" xml:space="preserve">
+    <value>هفت</value>
+  </data>
+  <data name="Number8" xml:space="preserve">
+    <value>۸</value>
+  </data>
+  <data name="Number8String" xml:space="preserve">
+    <value>هشت</value>
+  </data>
+  <data name="Number9" xml:space="preserve">
+    <value>۹</value>
+  </data>
+  <data name="Number9String" xml:space="preserve">
+    <value>نه</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>اپراتور</value>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>عدد مرتب سازی</value>
+  </data>
+  <data name="OtpPassword" xml:space="preserve">
+    <value>رمز یکبار مصرف</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>صفحه</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="Receivers" xml:space="preserve">
+    <value>گیرندگان</value>
+  </data>
+  <data name="RegisterDateTime" xml:space="preserve">
+    <value>تاریخ ثبت</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>نقش</value>
+  </data>
+  <data name="RoleId" xml:space="preserve">
+    <value>شناسه نقش</value>
+  </data>
+  <data name="SecurityImage" xml:space="preserve">
+    <value>عکس امنیتی</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>ایمیل فرستنده</value>
+  </data>
+  <data name="SenderTitle" xml:space="preserve">
+    <value>عنوان فرستنده</value>
+  </data>
+  <data name="Sorting" xml:space="preserve">
+    <value>مرتب سازی</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاریخ شروع</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>موضوع</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>برچسب</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>برچسب ها</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+</root>
