@@ -112,7 +112,7 @@ namespace ChiDaram.Api
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "chidaram Api",
+                    Title = "ChiDaram Api",
                     Description = "By: <b>Mohammad Dayyan</b> - 0903-333-9923",
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
