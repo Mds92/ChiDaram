@@ -1,6 +1,4 @@
-﻿using System;
-using MD.PersianDateTime.Standard;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace ChiDaram.Api.Controllers
 {
